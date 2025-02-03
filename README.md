@@ -19,7 +19,7 @@ Original repo: https://github.com/google-research/met
 ### Why Self-Supervised Learning? (Upstream)
 In the real world, data are noisy. According to IBM, the data usually contain more than 40% of noises. The model, as a result, tends to learn the incorrect labels. Therefore, instead of training the model with labels, self-supervised learning trains the model to learn representations of the input coordinates without labels. This is the reason why we decided to use the self-supervised learning as our upstream step.
 
-### why MET? (Upstream)
+### Why MET? (Upstream)
 MET masks randomly N% of the input coordinates in every batch. This gives more randomness while training, and makes the model performance stabiler, especially when the input data contain high level of noises.
 
 ### Why PyTorch?
@@ -101,7 +101,7 @@ python /src/train_classifier.py +config_file=path/to/your/config
 
 ## 📌&nbsp;&nbsp;Blog Link
 
-I wrote this  [Tutorial](Coming Soon!) as a guide into MET and our repository. (2nd Blog Post will be also followed :))
+I wrote this  [Tutorial](https://medium.com/@khyemin/self-supervised-learning-for-tabular-data-3148cd32fcf8) as a guide into MET and our repository. And my Colleague wrote the second blog post about the results of our experiment. [Results](https://medium.com/@chaturvedivikas059/mastering-noisy-data-a-deep-dive-into-self-supervised-learning-with-transformers-for-tabular-data-fad582590d4c)
 
 ## 📌&nbsp;&nbsp;Contributors
 Hyemin Kim: hyemin.kim@telekom.de
